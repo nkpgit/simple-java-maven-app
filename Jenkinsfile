@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('SonarScan') {
           steps {
-            echo 'Sonar Scan Start'
+            echo 'Sonar Scan updated'
           }
         }
 
